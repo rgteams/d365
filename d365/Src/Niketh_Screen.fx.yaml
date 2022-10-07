@@ -1,0 +1,8 @@
+Niketh_Screen As screen:
+
+    Label7 As label:
+        Text: ="Text"
+        X: =562
+        Y: =352
+        ZIndex: =1
+

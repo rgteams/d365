@@ -9,8 +9,8 @@ Screen2 As screen:
         TemplateSize: =686
         Width: =1296
         WrapCount: =2
-        X: =33
-        Y: =66
+        X: =45
+        Y: =63
         ZIndex: =1
 
         Image4 As image:
