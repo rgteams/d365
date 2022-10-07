@@ -1,0 +1,109 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "ShadowBox",
+    "TemplateGuid": "3a53a15fb65e496c82ded8213ed9018a"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "MarginLeft",
+      "Hidden": true,
+      "Name": "MarginLeft",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Margin between the left border of the component and the left border of the inner box (coloured edge is ignored)",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "MarginTop",
+      "Hidden": true,
+      "Name": "MarginTop",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Margin between the top border of the component and the top border of the inner box (coloured edge is ignored)",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "MarginRight",
+      "Hidden": true,
+      "Name": "MarginRight",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Margin between the right border of the component and the right border of the inner box (coloured edge is ignored)",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "MarginBottom",
+      "Hidden": true,
+      "Name": "MarginBottom",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Margin between the bottom border of the component and the bottom border of the inner box (coloured edge is ignored)",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Shadow",
+      "Hidden": false,
+      "Name": "Shadow",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "Shadow settings",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Blur\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Color\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"OffsetX\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"OffsetY\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Opacity\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Box",
+      "Hidden": false,
+      "Name": "Box",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "Box settings",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BorderColor\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"BorderThickness\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Opacity\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Radius\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Edge",
+      "Hidden": false,
+      "Name": "Edge",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "Edge settings",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Color\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Padding\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Position\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Width\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "EdgePositionEnum",
+      "Hidden": true,
+      "Name": "EdgePositionEnum",
+      "PropertyDataTypeKey": "Record",
+      "Tooltip": "Enumerations for edge position",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Bottom\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Left\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Right\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Top\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "ShowEdge",
+      "Hidden": false,
+      "Name": "ShowEdge",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "Show a coloured edge inside the inner box",
+      "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "638007336086171887",
+  "Name": "3a53a15fb65e496c82ded8213ed9018a",
+  "OverridableProperties": {},
+  "TemplateOriginalName": "7381b37295564b90bd72a63079420f02",
+  "Version": "637677631412565730"
+}

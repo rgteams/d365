@@ -1,0 +1,95 @@
+Screen2 As screen:
+    OnVisible: =Collect(Collection1, Gallery2.AllItems)
+
+    "Gallery2 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =648
+        Items: =RybbonCustomConnector.ListCampaigns(0,"rybbon",10).result.campaigns
+        TemplatePadding: =1
+        TemplateSize: =686
+        Width: =1296
+        WrapCount: =2
+        X: =45
+        Y: =63
+        ZIndex: =1
+
+        Image4 As image:
+            Height: =254
+            Image: =ThisItem.gift_image
+            OnSelect: =Select(Parent)
+            Width: =288
+            ZIndex: =1
+
+        Title4 As label:
+            Height: =58
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.campaign_name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =356
+            X: =318
+            Y: =98
+            ZIndex: =2
+
+        Label1 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =32
+            OnSelect: =Select(Parent)
+            Size: =10
+            Text: =ThisItem.gift_currency
+            Width: =58
+            X: =318
+            Y: =53
+            ZIndex: =4
+
+        Label2 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =38
+            OnSelect: =Select(Parent)
+            Size: =30
+            Text: =ThisItem.gift_value
+            Width: =208
+            X: =360
+            Y: =50
+            ZIndex: =5
+
+        Label3 As label:
+            OnSelect: =Select(Parent)
+            Text: ="Status"
+            Width: =80
+            X: =318
+            Y: =144
+            ZIndex: =6
+
+        TextInput1 As text:
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =ThisItem.campaign_status
+            Fill: =RGBA(20, 188, 130, 1)
+            FontWeight: =FontWeight.Semibold
+            OnSelect: =Select(Parent)
+            Width: =68
+            X: =385
+            Y: =144
+            ZIndex: =7
+
+    Label5 As label:
+        Height: =24
+        Text: ="Hello"
+        Width: =158
+        X: =381
+        Y: =249
+        ZIndex: =2
+
+    Button1 As button:
+        Height: =44
+        OnSelect: =Navigate(Reward_Workflow,Fade)
+        Text: ="Go back to Screen 1"
+        Width: =434
+        X: =511
+        Y: =37
+        ZIndex: =3
+
