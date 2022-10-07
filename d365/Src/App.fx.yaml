@@ -1,0 +1,8 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =Set(reward_outter,{
+            Fill:RGBA(0,255,255,255)
+        });
+    StartScreen: =
+

@@ -1,0 +1,134 @@
+ShadowBox As CanvasComponent:
+    Box: |-
+        ={Fill: "#00000000", Opacity: 1, BorderThickness: 0, BorderColor: "#000000", Radius: 0}
+    Edge: |-
+        ={Position: Self.EdgePositionEnum.Left, Width: 8, Color: "#00A2E8", Padding: 0}
+    EdgePositionEnum: |-
+        ={Left: "left", Top: "top", Right: "right", Bottom: "bottom"}
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =200
+    MarginBottom: =Max(Self.Shadow.Blur * 3 + Self.Shadow.OffsetY, 0)
+    MarginLeft: =Max(Self.Shadow.Blur * 3 - Self.Shadow.OffsetX, 0)
+    MarginRight: =Max(Self.Shadow.Blur * 3 + Self.Shadow.OffsetX, 0)
+    MarginTop: =Max(Self.Shadow.Blur * 3 - Self.Shadow.OffsetY,0)
+    OnReset: |-
+        =// Component by Emmanuel GALLIS (@R3dKap), created on 10-oct-2019, last updated on 26-sep-2020
+        false
+    Shadow: |-
+        ={OffsetX: 0, OffsetY: 0, Color: "#000000", Blur: 5, Opacity: 0.5}
+    ShowEdge: =true
+    Width: =320
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    htmAuthor_SB As htmlViewer:
+        HtmlText: |-
+            ="A component by <b style='color:red'>R3dKap</b> (<a href='https://twitter.com/R3dKap'><b style='color:#1B92E2' target='_blank'>@R3dKap</b></a> | <a href='https://www.linkedin.com/in/egallis/' target='_blank'><b style='color: #0A66C2'>/in/egallis/</b></a>)<br>Version: <b>v2.0</b> (20-sep-2021)"
+        Size: =8
+        Width: =400
+        Y: =Parent.Height
+        ZIndex: =1
+
+    imgShadowBox_SB As image:
+        FocusedBorderColor: =imgShadowBox_SB.BorderColor
+        Height: =Parent.Height
+        HoverBorderColor: =ColorFade(imgShadowBox_SB.BorderColor, 20%)
+        HoverFill: =ColorFade(imgShadowBox_SB.Fill, 20%)
+        Image: |-
+            ="data:image/svg+xml," & EncodeUrl(
+                "<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+            <svg version='1.1'
+                xmlns='http://www.w3.org/2000/svg'
+                xmlns:xlink='http://www.w3.org/1999/xlink' preserveAspectRatio='xMidYMid meet' viewBox='0 0 " & Self.Width & " " & Self.Height & "' width='" & Self.Width & "' height='" & Self.Height & "'>
+                <g>
+                    <g>
+                        <filter id='shadow' x='-20%' y='-20%' width='200%' height='200%' filterUnits='userSpaceOnUse' primitiveUnits='userSpaceOnUse'>
+                            <feFlood></feFlood>
+                            <feComposite in2='SourceAlpha' operator='in'></feComposite>
+                            <feGaussianBlur stdDeviation='" & ShadowBox.Shadow.Blur & "'></feGaussianBlur>
+                            <feOffset dx='" & ShadowBox.Shadow.OffsetX & "' dy='" & ShadowBox.Shadow.OffsetY & "' result='afterOffset'></feOffset>
+                            <feFlood flood-color='" & ShadowBox.Shadow.Color & "' flood-opacity='" & Substitute(Text(ShadowBox.Shadow.Opacity), ",", ".") & "'></feFlood>
+                            <feComposite in2='afterOffset' operator='in'></feComposite>
+                            <feMorphology operator='dilate' radius='1'></feMorphology>
+                            <feComposite in2='SourceAlpha' operator='out'></feComposite>
+                        </filter>
+                    </g>        
+                    <rect 
+                        id='boxForFill' 
+                        x='" & ShadowBox.MarginLeft & "' 
+                        y='" & ShadowBox.MarginTop & "' 
+                        width='" & Self.Width - ShadowBox.MarginLeft - ShadowBox.MarginRight & "' 
+                        height='" & Self.Height - ShadowBox.MarginTop - ShadowBox.MarginBottom & "' 
+                        fill='" & ShadowBox.Box.Fill & "' 
+                        stroke='" & ShadowBox.Box.BorderColor & "' stroke-width='" & ShadowBox.Box.BorderThickness & "'
+                        fill-opacity='" & Substitute(Text(ShadowBox.Box.Opacity), ",", ".") & "'
+                        rx='" & ShadowBox.Box.Radius & "'
+                    />
+                    <rect 
+                        id='boxForShadow' 
+                        x='" & ShadowBox.MarginLeft & "' 
+                        y='" & ShadowBox.MarginTop & "' 
+                        width='" & Self.Width - ShadowBox.MarginLeft - ShadowBox.MarginRight & "' 
+                        height='" & Self.Height - ShadowBox.MarginTop - ShadowBox.MarginBottom & "' 
+                        rx='" & ShadowBox.Box.Radius & "'
+                        filter='url(#shadow)'/>
+                </g>
+                <g>
+                    " &
+                    
+             If(// ----- Edge
+                    ShadowBox.ShowEdge && Not(ShadowBox.Box.Radius > 0),
+                    Switch(
+                        ShadowBox.Edge.Position,
+                        "left",// -- Position: left
+                        "<rect 
+                            id='boxForEdge' 
+                            x='" & ShadowBox.MarginLeft + ShadowBox.Edge.Padding & "' 
+                            y='" & ShadowBox.MarginTop + ShadowBox.Edge.Padding & "' 
+                            width='" & ShadowBox.Edge.Width & "' 
+                            height='" & Self.Height - ShadowBox.MarginTop - ShadowBox.MarginBottom - 2 * ShadowBox.Edge.Padding & "' 
+                            fill='" & ShadowBox.Edge.Color & "'
+                        rx='" & ShadowBox.Box.Radius & "'
+                        />",
+                        "top",// -- Position: top
+                        "<rect 
+                            id='boxForEdge' 
+                            x='" & ShadowBox.MarginLeft + ShadowBox.Edge.Padding & "' 
+                            y='" & ShadowBox.MarginTop + ShadowBox.Edge.Padding & "' 
+                            width='" & Self.Width - ShadowBox.MarginLeft - ShadowBox.MarginRight - 2 * ShadowBox.Edge.Padding & "' 
+                            height='" & ShadowBox.Edge.Width & "' 
+                            fill='" & ShadowBox.Edge.Color & "'
+                        rx='" & ShadowBox.Box.Radius & "'
+                        />",
+                        "right",// -- Position: right
+                        "<rect 
+                            id='boxForEdge' 
+                            x='" & Self.Width - ShadowBox.MarginRight - ShadowBox.Edge.Width - ShadowBox.Edge.Padding & "' 
+                            y='" & ShadowBox.MarginTop + ShadowBox.Edge.Padding & "' 
+                            width='" & ShadowBox.Edge.Width & "' 
+                            height='" & Self.Height - ShadowBox.MarginTop - ShadowBox.MarginBottom - 2 * ShadowBox.Edge.Padding & "' 
+                            fill='" & ShadowBox.Edge.Color & "'
+                        rx='" & ShadowBox.Box.Radius & "'
+                        />",
+                        "bottom",// -- Position: bottom
+                        "<rect 
+                            id='boxForEdge' 
+                            x='" & ShadowBox.MarginLeft + ShadowBox.Edge.Padding & "' 
+                            y='" & Self.Height - ShadowBox.MarginBottom - ShadowBox.Edge.Width - ShadowBox.Edge.Padding & "' 
+                            width='" & Self.Width - ShadowBox.MarginLeft - ShadowBox.MarginRight - 2 * ShadowBox.Edge.Padding & "' 
+                            height='" & ShadowBox.Edge.Width & "' 
+                            fill='" & ShadowBox.Edge.Color & "'
+                        rx='" & ShadowBox.Box.Radius & "'
+                        />"
+                    )
+                ) & "
+                </g>
+            </svg>"
+            )
+        PressedBorderColor: =ColorFade(imgShadowBox_SB.BorderColor, -20%)
+        PressedFill: =ColorFade(imgShadowBox_SB.Fill, -20%)
+        Width: =Parent.Width
+        ZIndex: =2
+

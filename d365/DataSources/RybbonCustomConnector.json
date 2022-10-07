@@ -1,0 +1,8 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_rybbon-20custom-20connector-5f783a911adcfbc875--1aa503bb6e241726",
+    "Name": "RybbonCustomConnector",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo"
+  }
+]

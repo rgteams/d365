@@ -1,0 +1,24 @@
+{
+  "bdbafeb1-60c2-4727-895a-d77aff3f0783": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Rybbon Custom Connector",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_rybbon-20custom-20connector-5f783a911adcfbc875--1aa503bb6e241726",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "RybbonCustomConnector",
+      "RybbonCustomConnector_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "bdbafeb1-60c2-4727-895a-d77aff3f0783"
+  }
+}

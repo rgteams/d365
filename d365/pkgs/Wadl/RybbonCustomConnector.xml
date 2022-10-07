@@ -1,0 +1,74 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://unitedstates-002.azure-apim.net/apim/rybbon-20custom-20connector-5f783a911adcfbc875--1aa503bb6e241726" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="RybbonCustomConnector" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Rybbon Custom Connector">This is for tetsing purpose</doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://unitedstates-002.azure-apim.net/apim/rybbon-20custom-20connector-5f783a911adcfbc875--1aa503bb6e241726" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_campaign_name_def" />
+      <string name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_campaign_key_def" />
+      <string name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_campaign_status_def" />
+      <string name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_campaign_type_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_total_recipients_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_total_claimed_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_pending_claims_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_pending_payments_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_available_gifts_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_claim_window_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_gift_value_def" />
+      <string name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_gift_currency_def" />
+      <string name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def_gift_image_def" />
+      <object name="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def">
+        <property name="campaign_name" type="string" />
+        <property name="campaign_key" type="string" />
+        <property name="campaign_status" type="string" />
+        <property name="campaign_type" type="string" />
+        <property name="total_recipients" type="integer" />
+        <property name="total_claimed" type="integer" />
+        <property name="pending_claims" type="integer" />
+        <property name="pending_payments" type="integer" />
+        <property name="available_gifts" type="integer" />
+        <property name="claim_window" type="integer" />
+        <property name="gift_value" type="integer" />
+        <property name="gift_currency" type="string" />
+        <property name="gift_image" type="string" />
+      </object>
+      <array typeRef="ListCampaigns_responses_default_def_result_def_campaigns_def_items_def" name="ListCampaigns_responses_default_def_result_def_campaigns_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_total_records_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_start_def" />
+      <integer name="ListCampaigns_responses_default_def_result_def_limit_def" />
+      <object name="ListCampaigns_responses_default_def_result_def">
+        <property name="campaigns" typeRef="ListCampaigns_responses_default_def_result_def_campaigns_def" />
+        <property name="total_records" type="integer" />
+        <property name="start" type="integer" />
+        <property name="limit" type="integer" />
+      </object>
+      <boolean name="ListCampaigns_responses_default_def_success_def" />
+      <object name="ListCampaigns_responses_default_def">
+        <property name="result" typeRef="ListCampaigns_responses_default_def_result_def" />
+        <property name="success" type="boolean" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://unitedstates-002.azure-apim.net/apim/rybbon-20custom-20connector-5f783a911adcfbc875--1aa503bb6e241726">
+    <resource path="/{connectionId}/">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="ListCampaigns" actionName="ListCampaigns" visibility="important" siena:isDeprecated="false">
+        <doc title="List Rybbon Campaigns&#xA;listing all rybbon campaigns" />
+        <request>
+          <param style="query" name="start" type="xs:long" required="true" default="0" />
+          <param style="query" name="filter_by_type" type="xs:string" required="true" default="rybbon" />
+          <param style="query" name="limit" type="xs:long" required="true" default="10" />
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:ListCampaigns_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_rybbon-20custom-20connector-5f783a911adcfbc875--1aa503bb6e241726" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>
