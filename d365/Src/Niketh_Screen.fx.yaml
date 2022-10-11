@@ -1,8 +1,129 @@
 Niketh_Screen As screen:
 
-    Label7 As label:
-        Text: ="Text"
-        X: =562
-        Y: =352
-        ZIndex: =1
+    Label8 As label:
+        Height: =140
+        Size: =40
+        Text: ="Label1"
+        Width: =328
+        X: =152
+        Y: =27
+        ZIndex: =2
+
+    Radio1 As radio:
+        Default: ="1d"
+        Items: =RadioSample
+        X: =80
+        Y: =136
+        ZIndex: =3
+
+    Form2 As form:
+        DataSource: =Collection1
+        Height: =228
+        Width: =346
+        X: =62
+        Y: =488
+        ZIndex: =4
+
+    PowerBI1 As powerbi:
+        Height: =212
+        Width: =354
+        X: =485
+        Y: =492
+        ZIndex: =5
+
+    Button2 As button:
+        DisabledBorderColor: =RGBA(141, 198, 63, 1)
+        Fill: =RGBA(166, 166, 166, 1)
+        Text: ="Button1"
+        X: =400
+        Y: =68
+        ZIndex: =6
+
+    HtmlText2 As htmlViewer:
+        Height: =0
+        X: =60
+        Y: =99
+        ZIndex: =7
+
+    Slider1 As slider:
+        Height: =0
+        X: =80
+        Y: =120
+        ZIndex: =8
+
+    CompositePieChart1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =9
+
+        Title1 As label:
+            Align: =Align.Center
+            Height: =24
+            Text: ="Chart Title"
+            Width: =414
+            X: =915
+            Y: =197
+            ZIndex: =10
+
+        PieChart1 As pieChart:
+            Height: =369
+            Items: =PieChartSample
+            Width: =414
+            X: =905
+            Y: =167
+            ZIndex: =11
+
+        Legend1 As legend:
+            Height: =185
+            ItemColorSet: =PieChart1.ItemColorSet
+            Items: =PieChart1.SeriesLabels
+            Size: =16
+            Width: =414
+            X: =915
+            Y: =505
+            ZIndex: =12
+
+    PenInput1 As inkControl:
+        Color: =RGBA(149, 149, 149, 1)
+        Height: =301
+        Width: =354
+        X: =485
+        Y: =154
+        ZIndex: =13
+
+    Icon2 As icon.Add:
+        Icon: =Icon.Add
+        X: =630
+        Y: =56
+        ZIndex: =14
+
+    Icon3 As icon.Flag:
+        Icon: =Icon.Flag
+        X: =83
+        Y: =56
+        ZIndex: =15
+
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =234
+        Width: =326
+        X: =66
+        Y: =274
+        ZIndex: =16
+
+    Button3 As button:
+        Text: ="Button2"
+        X: =788
+        Y: =65
+        ZIndex: =17
+
+    Icon5 As icon.Health:
+        Icon: =Icon.Health
+        X: =1080
+        Y: =65
+        ZIndex: =18
 
