@@ -87,7 +87,7 @@ Screen2 As screen:
     Button1 As button:
         Height: =44
         OnSelect: =Navigate(Reward_Workflow,Fade)
-        Text: ="Go back to Screen 1"
+        Text: ="Go back to Screen 33"
         Width: =434
         X: =511
         Y: =37
