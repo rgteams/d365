@@ -15,7 +15,7 @@ Screen2 As screen:
 
         Image4 As image:
             Height: =254
-            Image: =ThisItem.gift_image
+            Image: =ThisItem.campaignImage
             OnSelect: =Select(Parent)
             Width: =288
             ZIndex: =1
@@ -28,7 +28,7 @@ Screen2 As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =18
-            Text: =ThisItem.campaign_name
+            Text: =ThisItem.campaignName
             VerticalAlign: =VerticalAlign.Top
             Width: =356
             X: =318
@@ -40,7 +40,7 @@ Screen2 As screen:
             Height: =32
             OnSelect: =Select(Parent)
             Size: =10
-            Text: =ThisItem.gift_currency
+            Text: =ThisItem.campaignRewardCurrency
             Width: =58
             X: =318
             Y: =53
@@ -51,7 +51,7 @@ Screen2 As screen:
             Height: =38
             OnSelect: =Select(Parent)
             Size: =30
-            Text: =ThisItem.gift_value
+            Text: =ThisItem.campaignRewardValue
             Width: =208
             X: =360
             Y: =50
@@ -67,7 +67,7 @@ Screen2 As screen:
 
         TextInput1 As text:
             Color: =RGBA(255, 255, 255, 1)
-            Default: =ThisItem.campaign_status
+            Default: =ThisItem.campaignStatus
             Fill: =RGBA(20, 188, 130, 1)
             FontWeight: =FontWeight.Semibold
             OnSelect: =Select(Parent)
