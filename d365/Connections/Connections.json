@@ -14,11 +14,27 @@
     },
     "datasets": {},
     "dataSources": [
-      "RybbonCustomConnector",
-      "RybbonCustomConnector_1"
+      "RybbonCustomConnector"
     ],
     "dependencies": {},
     "dependents": [],
     "id": "bdbafeb1-60c2-4727-895a-d77aff3f0783"
+  },
+  "f9e18333-8c4a-4edc-aa42-0036bdcdb9e0": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "BHN rewards api",
+      "iconUri": "https://prodapiicons.cdn.powerappscdn.net/20221010t000000z823709a57eae4f968eb1c2fe5e418bf0/customconnectoricon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_bhn-20rewards-20api-5f783a911adcfbc875-5fd0b8579e069f9298"
+    },
+    "datasets": {},
+    "dataSources": [
+      "BHNrewardsapi"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f9e18333-8c4a-4edc-aa42-0036bdcdb9e0"
   }
 }
