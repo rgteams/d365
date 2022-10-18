@@ -1,13 +1,13 @@
-Reward_Workflow As screen:
+Reward_Workflow_1 As screen:
 
-    top_container As groupContainer.manualLayoutContainer:
+    top_container_1 As groupContainer.manualLayoutContainer:
         Height: =68
         Width: =1314
         X: =24
         Y: =32
         ZIndex: =3
 
-        Label4_1 As label:
+        Label4_3 As label:
             DisplayMode: =DisplayMode.View
             Size: =10
             Text: ="with Rybbon by Blackhawk network"
@@ -16,14 +16,14 @@ Reward_Workflow As screen:
             Y: =21
             ZIndex: =1
 
-        Label4 As label:
+        Label4_2 As label:
             DisplayMode: =DisplayMode.View
             FontWeight: =Bold
             Size: =14
             Text: ="Reward"
             ZIndex: =2
 
-        Label18 As label:
+        Label18_1 As label:
             FontWeight: =FontWeight.Bold
             Height: =21
             Size: =10
@@ -33,7 +33,7 @@ Reward_Workflow As screen:
             Y: =9
             ZIndex: =3
 
-        Label19 As label:
+        Label19_2 As label:
             Size: =9
             Text: ="Status"
             Width: =50
@@ -41,7 +41,7 @@ Reward_Workflow As screen:
             Y: =21
             ZIndex: =4
 
-        Label20 As label:
+        Label20_1 As label:
             BorderColor: =RGBA(204, 204, 204, 1)
             BorderThickness: =1
             Text: =""
@@ -50,7 +50,7 @@ Reward_Workflow As screen:
             Y: =9
             ZIndex: =6
 
-        Label21 As label:
+        Label21_1 As label:
             Color: =RGBA(0, 134, 208, 1)
             FontWeight: =FontWeight.Bold
             Size: =10
@@ -59,7 +59,7 @@ Reward_Workflow As screen:
             X: =1185
             ZIndex: =7
 
-        Label19_1 As label:
+        Label19_3 As label:
             Size: =9
             Text: ="Owner"
             Width: =50
@@ -67,7 +67,7 @@ Reward_Workflow As screen:
             Y: =21
             ZIndex: =8
 
-        Icon4 As icon.ChevronDown:
+        Icon4_1 As icon.ChevronDown:
             Color: =RGBA(179, 179, 179, 1)
             Height: =22
             Icon: =Icon.ChevronDown
@@ -76,23 +76,23 @@ Reward_Workflow As screen:
             Y: =21
             ZIndex: =9
 
-    rybbon_text_container As groupContainer.manualLayoutContainer:
+    rybbon_text_container_1 As groupContainer.manualLayoutContainer:
         Height: =41
         Width: =1314
         X: =24
         Y: =88
         ZIndex: =4
 
-        Label6 As label:
+        Label6_1 As label:
             DisplayMode: =DisplayMode.View
             FontWeight: =Bold
-            Height: =50
+            Height: =41
             Size: =11
             Text: ="Rybbon Reward"
             Width: =187
             ZIndex: =1
 
-        Icon1 As icon.HorizontalLine:
+        Icon1_1 As icon.HorizontalLine:
             BorderColor: =RGBA(73, 112, 191, 1)
             Color: =RGBA(50, 86, 160, 1)
             DisplayMode: =DisplayMode.View
@@ -101,10 +101,10 @@ Reward_Workflow As screen:
             Icon: =Icon.HorizontalLine
             Width: =100
             X: =5
-            Y: =29
+            Y: =16
             ZIndex: =2
 
-    stepper_container As groupContainer.manualLayoutContainer:
+    stepper_container_1 As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(204, 204, 204, 1)
         BorderThickness: =0.5
         Height: =85
@@ -113,7 +113,7 @@ Reward_Workflow As screen:
         Y: =151
         ZIndex: =5
 
-        Circle1_2 As circle:
+        Circle1_5 As circle:
             BorderColor: =RGBA(47, 105, 231, 0.01)
             Height: =30
             Width: =30
@@ -121,7 +121,7 @@ Reward_Workflow As screen:
             Y: =15
             ZIndex: =7
 
-        Label7_2 As label:
+        Label7_5 As label:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
             Height: =30
@@ -132,7 +132,7 @@ Reward_Workflow As screen:
             Y: =15
             ZIndex: =8
 
-        Label8_2 As label:
+        Label8_5 As label:
             BorderColor: =RGBA(0, 134, 208, 1)
             Color: =RGBA(0, 134, 208, 1)
             FontWeight: =FontWeight.Semibold
@@ -144,7 +144,7 @@ Reward_Workflow As screen:
             Y: =45
             ZIndex: =9
 
-        Circle1_3 As circle:
+        Circle1_6 As circle:
             BorderColor: =RGBA(153, 153, 153, 1)
             BorderThickness: =2
             Fill: =RGBA(255, 255, 255, 1)
@@ -154,7 +154,7 @@ Reward_Workflow As screen:
             Y: =15
             ZIndex: =10
 
-        Label7_3 As label:
+        Label7_6 As label:
             Color: =RGBA(153, 153, 153, 1)
             DisplayMode: =DisplayMode.View
             FontWeight: =FontWeight.Semibold
@@ -166,7 +166,7 @@ Reward_Workflow As screen:
             Y: =15
             ZIndex: =11
 
-        Label8_3 As label:
+        Label8_6 As label:
             BorderColor: =RGBA(0, 134, 208, 1)
             Color: =RGBA(179, 179, 179, 1)
             FontWeight: =FontWeight.Semibold
@@ -178,7 +178,7 @@ Reward_Workflow As screen:
             Y: =45
             ZIndex: =12
 
-        Circle1_4 As circle:
+        Circle1_7 As circle:
             BorderColor: =RGBA(153, 153, 153, 1)
             BorderThickness: =2
             Fill: =RGBA(255, 255, 255, 1)
@@ -188,7 +188,7 @@ Reward_Workflow As screen:
             Y: =15
             ZIndex: =13
 
-        Label7_4 As label:
+        Label7_7 As label:
             Color: =RGBA(153, 153, 153, 1)
             DisplayMode: =DisplayMode.View
             FontWeight: =FontWeight.Semibold
@@ -200,7 +200,7 @@ Reward_Workflow As screen:
             Y: =15
             ZIndex: =14
 
-        Label8_4 As label:
+        Label8_7 As label:
             BorderColor: =RGBA(0, 134, 208, 1)
             Color: =RGBA(179, 179, 179, 1)
             FontWeight: =FontWeight.Semibold
@@ -212,21 +212,21 @@ Reward_Workflow As screen:
             Y: =45
             ZIndex: =15
 
-        HtmlText1 As htmlViewer:
+        HtmlText1_3 As htmlViewer:
             HtmlText: |-
                 ="<div style=' border-bottom: 1px solid gray;'>&nbsp;</div>"
             X: =433
             Y: =5
             ZIndex: =16
 
-        HtmlText1_1 As htmlViewer:
+        HtmlText1_4 As htmlViewer:
             HtmlText: |-
                 ="<div style=' border-bottom: 1px solid gray;'>&nbsp;</div>"
             X: =701
             Y: =5
             ZIndex: =17
 
-    reward_container As groupContainer.manualLayoutContainer:
+    reward_container_1 As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(204, 204, 204, 1)
         BorderThickness: =0.5
         Height: =493
@@ -235,7 +235,7 @@ Reward_Workflow As screen:
         Y: =259
         ZIndex: =6
 
-        reward_campaign_text As label:
+        reward_campaign_text_1 As label:
             Color: =RGBA(116, 116, 116, 1)
             FontWeight: =Semibold
             Height: =26
@@ -246,9 +246,9 @@ Reward_Workflow As screen:
             Y: =27
             ZIndex: =1
 
-        Gallery3 As gallery.galleryVertical:
+        Gallery3_1 As gallery.galleryVertical:
             Height: =372
-            Items: =BHNrewardsapi.TeamsCampaigns().result.campaigns
+            Items: =RybbonCustomConnector.ListCampaigns(7,"rybbon",11).result.campaigns
             Layout: =Layout.Vertical
             ShowScrollbar: =false
             TemplateSize: =166
@@ -258,35 +258,35 @@ Reward_Workflow As screen:
             Y: =84
             ZIndex: =2
 
-            reward_outter As groupContainer:
-                Height: =168
-                Width: =408
+            reward_outter_1 As groupContainer:
+                Height: =166
+                Width: =371
                 ZIndex: =3
 
-                shadow_outter As htmlViewer:
-                    Height: =168
+                shadow_outter_1 As htmlViewer:
+                    Height: =166
                     HtmlText: |-
                         ="<div style='box-shadow: 10px 0px 10px #ccc;height:150px;width:395px;border-radius:5px'>&nbsp;</div>"
                     Width: =350
                     X: =13
                     ZIndex: =1
 
-                campaign_name As label:
+                campaign_name_1 As label:
                     Color: =RGBA(116, 116, 116, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =20
-                    OnSelect: =Select(reward_logo)
+                    OnSelect: =Select(reward_logo_1)
                     Size: =8
-                    Text: =Proper(ThisItem.campaignName)
+                    Text: =ThisItem.campaign_name
                     Width: =201
                     X: =25
                     Y: =14
                     ZIndex: =2
 
-                reward_logo As image:
+                reward_logo_1 As image:
                     DisplayMode: =DisplayMode.View
                     Height: =85
-                    Image: =ThisItem.campaignImage
+                    Image: =ThisItem.gift_image
                     ImagePosition: =ImagePosition.Fill
                     OnSelect: =""
                     RadiusBottomLeft: =5
@@ -298,7 +298,7 @@ Reward_Workflow As screen:
                     Y: =43
                     ZIndex: =3
 
-                reward_type_label As label:
+                reward_type_label_1 As label:
                     Color: =RGBA(204, 204, 204, 1)
                     FontWeight: =FontWeight.Semibold
                     Height: =28
@@ -308,25 +308,25 @@ Reward_Workflow As screen:
                     Y: =128
                     ZIndex: =4
 
-                campaign_currency As label:
+                campaign_currency_1 As label:
                     FontWeight: =FontWeight.Bold
                     Height: =38
                     Size: =7
-                    Text: =Concatenate(ThisItem.campaignRewardCurrency,"  $")
+                    Text: =Concatenate(ThisItem.gift_currency,"  $")
                     Width: =48
                     X: =163
                     Y: =38
                     ZIndex: =5
 
-                price_label As label:
+                price_label_1 As label:
                     FontWeight: =FontWeight.Bold
                     Size: =18
-                    Text: =Concatenate(ThisItem.rewardPrice,".00")
+                    Text: =Concatenate(ThisItem.gift_value,".00")
                     X: =193
                     Y: =34
                     ZIndex: =6
 
-                approval_label As label:
+                approval_label_1 As label:
                     Color: =RGBA(179, 179, 179, 1)
                     FontWeight: =FontWeight.Semibold
                     Size: =8
@@ -336,7 +336,7 @@ Reward_Workflow As screen:
                     Y: =63
                     ZIndex: =7
 
-                status_label As label:
+                status_label_1 As label:
                     Color: =RGBA(54, 176, 75, 1)
                     DisplayMode: =DisplayMode.View
                     FontWeight: =FontWeight.Semibold
@@ -348,10 +348,10 @@ Reward_Workflow As screen:
                     Y: =92
                     ZIndex: =8
 
-                status_text As text:
+                status_text_1 As text:
                     Align: =Align.Justify
                     Color: =RGBA(255, 255, 255, 1)
-                    Default: =Upper(ThisItem.campaignStatus)
+                    Default: =Upper(ThisItem.campaign_status)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(54, 176, 75, 1)
                     FontWeight: =FontWeight.Semibold
@@ -364,7 +364,7 @@ Reward_Workflow As screen:
                     Y: =98
                     ZIndex: =9
 
-                reward_wrapper As button:
+                reward_wrapper_1 As button:
                     BorderColor: =RGBA(230, 230, 230, 1)
                     BorderThickness: =1
                     Fill: =RGBA(0, 0, 0, 0)
@@ -380,7 +380,7 @@ Reward_Workflow As screen:
                     Y: =6
                     ZIndex: =10
 
-                HtmlText1_2 As htmlViewer:
+                HtmlText1_5 As htmlViewer:
                     HtmlText: |-
                         ="<div style=' border-bottom: 1px solid #ccc;'>&nbsp;</div>"
                     Width: =321
@@ -388,7 +388,7 @@ Reward_Workflow As screen:
                     Y: =12
                     ZIndex: =11
 
-        your_budget_text As label:
+        your_budget_text_1 As label:
             Size: =11
             Text: |-
                 ="Your Budget :"
@@ -396,7 +396,7 @@ Reward_Workflow As screen:
             Y: =20
             ZIndex: =3
 
-        budget_display_text As label:
+        budget_display_text_1 As label:
             FontWeight: =FontWeight.Bold
             Size: =11
             Text: ="$1200.00"
@@ -405,7 +405,7 @@ Reward_Workflow As screen:
             Y: =20
             ZIndex: =4
 
-    Container1 As groupContainer.manualLayoutContainer:
+    Container1_1 As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(179, 179, 179, 1)
         BorderThickness: =1
         Height: =32
