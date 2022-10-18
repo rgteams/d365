@@ -21,7 +21,7 @@ Screen2 As screen:
             ZIndex: =1
 
         Title4 As label:
-            Height: =34
+            Height: =30
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -30,9 +30,9 @@ Screen2 As screen:
             Size: =18
             Text: =ThisItem.campaignName
             VerticalAlign: =VerticalAlign.Top
-            Width: =276
+            Width: =338
             X: =318
-            Y: =98
+            Y: =102
             ZIndex: =2
 
         Label1 As label:
