@@ -9,8 +9,8 @@ Screen2 As screen:
         TemplateSize: =686
         Width: =1296
         WrapCount: =2
-        X: =45
-        Y: =63
+        X: =34
+        Y: =81
         ZIndex: =1
 
         Image4 As image:
@@ -87,7 +87,7 @@ Screen2 As screen:
     Button1 As button:
         Height: =44
         OnSelect: =Navigate(Reward_Workflow,Fade)
-        Text: ="Go back to Screen 44 OKay"
+        Text: ="Go back to Screen 55"
         Width: =434
         X: =511
         Y: =37
