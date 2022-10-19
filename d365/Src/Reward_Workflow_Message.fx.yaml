@@ -22,8 +22,8 @@ Reward_Workflow_Message As screen:
             BorderThickness: =1
             Fill: =RGBA(0, 0, 0, 0)
             Height: =340
-            Width: =816
-            X: =60
+            Width: =852
+            X: =24
             Y: =394
             ZIndex: =1
 
@@ -31,15 +31,15 @@ Reward_Workflow_Message As screen:
             FontWeight: =FontWeight.Bold
             Height: =29
             Text: ="Edit Message"
-            Width: =766
-            X: =85
+            Width: =800
+            X: =50
             Y: =411
             ZIndex: =2
 
         Seperaor As rectangle:
             Height: =2
-            Width: =776
-            X: =80
+            Width: =810
+            X: =45
             Y: =439
             ZIndex: =3
 
@@ -52,8 +52,8 @@ Reward_Workflow_Message As screen:
             HoverBorderColor: =RGBA(230, 230, 230, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
             Mode: =TextMode.MultiLine
-            Width: =782
-            X: =73
+            Width: =817
+            X: =38
             Y: =439
             ZIndex: =4
 
@@ -424,16 +424,47 @@ Reward_Workflow_Message As screen:
             Y: =21
             ZIndex: =9
 
-    Container3 As groupContainer.verticalAutoLayoutContainer:
-        Height: =116
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        Width: =816
-        X: =60
-        Y: =261
+    Container4 As groupContainer.manualLayoutContainer:
+        Height: =118
+        Width: =852
+        X: =24
+        Y: =257
         ZIndex: =11
 
-        Label9 As label:
+        Label10 As label:
             Text: ="From"
+            X: =24
+            Y: =9
             ZIndex: =1
+
+        Label10_1 As label:
+            Text: ="Send Rewards To"
+            X: =24
+            Y: =49
+            ZIndex: =2
+
+        Label10_2 As label:
+            Text: =User().FullName
+            X: =174
+            Y: =9
+            ZIndex: =3
+
+        Label10_3 As label:
+            Text: ="Winford ASher"
+            X: =174
+            Y: =49
+            ZIndex: =4
+
+        Label10_4 As label:
+            Text: ="Subject"
+            X: =24
+            Y: =78
+            ZIndex: =5
+
+        Label10_5 As label:
+            Text: =SelectedCampaign.campaignCountry
+            Width: =270
+            X: =174
+            Y: =78
+            ZIndex: =6
 
