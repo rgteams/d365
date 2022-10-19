@@ -1,0 +1,190 @@
+Reward_Workflow_Message As screen:
+
+    Rectangle3 As rectangle:
+        BorderColor: =RGBA(230, 230, 230, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =552
+        Width: =418
+        X: =915
+        Y: =182
+        ZIndex: =5
+
+    "'Edit message' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+        Rectangle1 As rectangle:
+            BorderThickness: =1
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =452
+            Width: =816
+            X: =60
+            Y: =282
+            ZIndex: =1
+
+        Label5 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =38
+            Text: ="Edit Message"
+            Width: =766
+            X: =85
+            Y: =304
+            ZIndex: =2
+
+        Seperaor As rectangle:
+            Height: =2
+            Width: =776
+            X: =80
+            Y: =342
+            ZIndex: =3
+
+        TextInput2 As text:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderThickness: =1
+            Default: =""
+            FocusedBorderThickness: =1
+            Height: =374
+            HoverBorderColor: =RGBA(230, 230, 230, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            Mode: =TextMode.MultiLine
+            Width: =782
+            X: =73
+            Y: =342
+            ZIndex: =4
+
+    reward_outter_1 As groupContainer:
+        Height: =168
+        Width: =392
+        X: =928
+        Y: =239
+        ZIndex: =6
+
+        shadow_outter_1 As htmlViewer:
+            Height: =168
+            HtmlText: |-
+                ="<div style='box-shadow: 10px 0px 10px #ccc;height:150px;width:395px;border-radius:5px'>&nbsp;</div>"
+            Width: =350
+            X: =13
+            ZIndex: =1
+
+        campaign_name_1 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =20
+            OnSelect: =Select(reward_logo_1)
+            Size: =8
+            Text: =Proper(ThisItem.campaignName)
+            Width: =201
+            X: =25
+            Y: =14
+            ZIndex: =2
+
+        reward_logo_1 As image:
+            DisplayMode: =DisplayMode.View
+            Height: =85
+            Image: =ThisItem.campaignImage
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =""
+            RadiusBottomLeft: =5
+            RadiusBottomRight: =5
+            RadiusTopLeft: =5
+            RadiusTopRight: =5
+            Width: =138
+            X: =25
+            Y: =43
+            ZIndex: =3
+
+        reward_type_label_1 As label:
+            Color: =RGBA(204, 204, 204, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =28
+            Size: =6
+            Text: ="Recipient Choice US"
+            X: =25
+            Y: =128
+            ZIndex: =4
+
+        campaign_currency_1 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =38
+            Size: =7
+            Text: =Concatenate(ThisItem.campaignRewardCurrency,"  $")
+            Width: =48
+            X: =163
+            Y: =38
+            ZIndex: =5
+
+        price_label_1 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =18
+            Text: =Concatenate(ThisItem.rewardPrice,".00")
+            X: =193
+            Y: =34
+            ZIndex: =6
+
+        approval_label_1 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Size: =8
+            Text: ="Approval Required"
+            Width: =127
+            X: =185
+            Y: =63
+            ZIndex: =7
+
+        status_label_1 As label:
+            Color: =RGBA(54, 176, 75, 1)
+            DisplayMode: =DisplayMode.View
+            FontWeight: =FontWeight.Semibold
+            Height: =32
+            Size: =7
+            Text: ="Status"
+            Width: =68
+            X: =185
+            Y: =92
+            ZIndex: =8
+
+        status_text_1 As text:
+            Align: =Align.Justify
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =Upper(ThisItem.campaignStatus)
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(54, 176, 75, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =20
+            PaddingLeft: =5
+            PaddingRight: =0
+            Size: =7
+            Width: =40
+            X: =223
+            Y: =98
+            ZIndex: =9
+
+        reward_wrapper_1 As button:
+            BorderColor: =RGBA(230, 230, 230, 1)
+            BorderThickness: =1
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderColor: =RGBA(44, 114, 249, 1)
+            Height: =150
+            HoverBorderColor: =RGBA(44, 114, 249, 1)
+            HoverFill: =RGBA(0,0,0,0)
+            OnSelect: =Navigate(Screen2,Fade,ThisItem)
+            PressedBorderColor: =RGBA(44, 114, 249, 1)
+            Text: =""
+            Width: =344
+            X: =19
+            Y: =6
+            ZIndex: =10
+
+        HtmlText1_3 As htmlViewer:
+            HtmlText: |-
+                ="<div style=' border-bottom: 1px solid #ccc;'>&nbsp;</div>"
+            Width: =321
+            X: =25
+            Y: =12
+            ZIndex: =11
+

@@ -14,29 +14,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Reward_Workflow",
-                "type": "Reward_Workflow.reward_container.Gallery3"
+                "member": "Default",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.status_text_1"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "ThisItem"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -44,19 +54,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.TabIndex"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.TabIndex",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": ".campaignStatus"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Reward_Workflow",
-                "type": "Reward_Workflow.reward_container.Gallery3"
+                "member": "Default",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.status_text_1"
               }
             }
           ],
@@ -64,9 +81,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 1
         },
         {
@@ -74,29 +91,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.FocusedBorderThickness"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.FocusedBorderThickness",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 30,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Upper(ThisItem.campaignStatus)"
+                  }
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Reward_Workflow",
-                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name"
+                "member": "Default",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.status_text_1"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Upper"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 2
         },
         {
@@ -104,59 +131,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.TabIndex"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.Image"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.TabIndex",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.Image",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Reward_Workflow",
-                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name"
+                "member": "Image",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.reward_logo_1"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "ThisItem"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Reward_Workflow",
-                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -164,19 +171,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.TabIndex"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.Image"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.TabIndex",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.Image",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".campaignImage"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Reward_Workflow",
-                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo"
+                "member": "Image",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.reward_logo_1"
               }
             }
           ],
@@ -184,9 +198,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 1
         },
         {
@@ -194,19 +208,66 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.status_text.AccessibleLabel"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.status_text.AccessibleLabel",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Reward_Workflow",
-                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.status_text"
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": ".campaignRewardCurrency"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1"
               }
             }
           ],
@@ -214,10 +275,324 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 50,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Concatenate(ThisItem.campaignRewardCurrency,\"  $\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.campaign_currency_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Concatenate"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.price_label_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.price_label_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.price_label_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.price_label_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.price_label_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 20,
+                  "snippet": {
+                    "text": ".rewardPrice"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.price_label_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.price_label_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.price_label_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 39,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Concatenate(ThisItem.rewardPrice,\".00\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.price_label_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Concatenate"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.campaign_name_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".campaignName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.campaign_name_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 22,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Screen2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Navigate"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -247,7 +622,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -277,7 +652,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -306,7 +681,7 @@
             "level": "Low"
           },
           "ruleId": "acc-AlternativeInputNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -336,7 +711,217 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Reward_Workflow",
+                "type": "Reward_Workflow.reward_container.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Reward_Workflow",
+                "type": "Reward_Workflow.reward_container.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Reward_Workflow",
+                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Reward_Workflow",
+                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.campaign_name"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Reward_Workflow",
+                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Reward_Workflow",
+                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.reward_logo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.status_text.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow.reward_container.Gallery3.reward_outter.status_text.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Reward_Workflow",
+                "type": "Reward_Workflow.reward_container.Gallery3.reward_outter.status_text"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -365,7 +950,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -395,7 +980,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -425,7 +1010,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -455,86 +1040,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.AccessibleLabel"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Reward_Workflow_1",
-                "type": "Reward_Workflow_1.reward_container_1.Gallery3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Reward_Workflow_1",
-                "type": "Reward_Workflow_1.reward_container_1.Gallery3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.campaign_name_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.campaign_name_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Reward_Workflow_1",
-                "type": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.campaign_name_1"
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.campaign_name_1"
               }
             }
           ],
@@ -545,56 +1070,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.campaign_name_1.TabIndex"
+                  "fullyQualifiedName": "Reward_Workflow_Message.TextInput2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.campaign_name_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Reward_Workflow_1",
-                "type": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.campaign_name_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.reward_logo_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.reward_logo_1.AccessibleLabel",
+                  "fullyQualifiedName": "Reward_Workflow_Message.TextInput2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Reward_Workflow_1",
-                "type": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.reward_logo_1"
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.TextInput2"
               }
             }
           ],
@@ -605,26 +1100,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.reward_logo_1.TabIndex"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.reward_logo_1.TabIndex",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.campaign_name_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Reward_Workflow_1",
-                "type": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.reward_logo_1"
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.campaign_name_1"
               }
             }
           ],
@@ -635,26 +1130,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.status_text_1.AccessibleLabel"
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.status_text_1.AccessibleLabel",
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Reward_Workflow_1",
-                "type": "Reward_Workflow_1.reward_container_1.Gallery3_1.reward_outter_1.status_text_1"
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.reward_logo_1"
               }
             }
           ],
@@ -665,7 +1160,67 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_logo_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.reward_logo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message.reward_outter_1.status_text_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -695,7 +1250,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -725,7 +1280,37 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 6
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.SelectedCampaign"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.SelectedCampaign",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "SelectedCampaign",
+                "module": "Screen2",
+                "type": "Screen2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 8
         }
       ],
       "tool": {
@@ -733,6 +1318,51 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
@@ -748,6 +1378,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-AlternativeInputNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Add another input method"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Add a text input in addition to the pen control for an accessible experience."
+                ],
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "Some users can't use a pen and require another way to input information. Example: Typing in a signature."
               }
             },
             {
@@ -782,23 +1429,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
-              }
-            },
-            {
-              "id": "acc-AlternativeInputNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Add another input method"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Add a text input in addition to the pen control for an accessible experience."
-                ],
-                "level": "Low",
-                "primaryCategory": "accessibility",
-                "whyFix": "Some users can't use a pen and require another way to input information. Example: Typing in a signature."
               }
             },
             {
