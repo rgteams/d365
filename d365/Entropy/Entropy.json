@@ -102,7 +102,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/19/2022 05:16:42",
+  "HeaderLastSavedDateTimeUTC": "10/19/2022 05:26:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "bdbafeb1-60c2-4727-895a-d77aff3f0783": "\"/providers/microsoft.powerapps/apis/shared_rybbon-20custom-20connector-5f783a911adcfbc875--1aa503bb6e241726/connections/631797fab9214b8897652cad157d306d\"",
@@ -340,7 +340,7 @@
       "text": 5
     },
     "DeserializationLoadTime": 2.5008977,
-    "ErrorCount": 12
+    "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

@@ -372,8 +372,7 @@ Reward_Workflow As screen:
                     Height: =150
                     HoverBorderColor: =RGBA(44, 114, 249, 1)
                     HoverFill: =RGBA(0,0,0,0)
-                    OnSelect: |-
-                        =Navigate(Reward_Workflow_Message,Fade,{SelectedCampaign:ThisItem})
+                    OnSelect: =Set(SelectedCampaign,ThisItem);Navigate(Reward_Workflow_Message,Fade)
                     PressedBorderColor: =RGBA(44, 114, 249, 1)
                     Text: =""
                     Width: =344
