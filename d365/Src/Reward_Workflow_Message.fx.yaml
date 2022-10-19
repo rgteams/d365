@@ -151,7 +151,7 @@ Reward_Workflow_Message As screen:
         status_text_1 As text:
             Align: =Align.Justify
             Color: =RGBA(255, 255, 255, 1)
-            Default: =Upper(ThisItem.campaignStatus)
+            Default: =Upper(Selec)
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(54, 176, 75, 1)
             FontWeight: =FontWeight.Semibold
@@ -172,7 +172,7 @@ Reward_Workflow_Message As screen:
             Height: =150
             HoverBorderColor: =RGBA(44, 114, 249, 1)
             HoverFill: =RGBA(0,0,0,0)
-            OnSelect: =Navigate(Screen2,Fade,ThisItem)
+            OnSelect: =
             PressedBorderColor: =RGBA(44, 114, 249, 1)
             Text: =""
             Width: =344

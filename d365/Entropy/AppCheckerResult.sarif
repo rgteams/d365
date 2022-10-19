@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
+                  "charLength": 5,
                   "charOffset": 6,
                   "snippet": {
-                    "text": "ThisItem"
+                    "text": "Selec"
                   }
                 }
               },
@@ -39,7 +39,7 @@
           ],
           "message": {
             "arguments": [
-              "ThisItem"
+              "Selec"
             ],
             "id": "issue"
           },
@@ -63,47 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 15,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".campaignStatus"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Reward_Workflow_Message",
-                "type": "Reward_Workflow_Message.reward_outter_1.status_text_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.status_text_1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 30,
+                  "charLength": 12,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Upper(ThisItem.campaignStatus)"
+                    "text": "Upper(Selec)"
                   }
                 }
               },
@@ -124,7 +87,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -201,7 +164,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -278,7 +241,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -318,7 +281,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -395,7 +358,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -435,7 +398,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -512,86 +475,6 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 22,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Reward_Workflow_Message",
-                "type": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "Screen2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Reward_Workflow_Message",
-                "type": "Reward_Workflow_Message.reward_outter_1.reward_wrapper_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Navigate"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 2
         },
         {
@@ -1287,19 +1170,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.SelectedCampaign"
+                  "fullyQualifiedName": "Reward_Workflow_Message.SelectedCampaign"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.SelectedCampaign",
+                  "fullyQualifiedName": "Reward_Workflow_Message.SelectedCampaign",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "SelectedCampaign",
-                "module": "Screen2",
-                "type": "Screen2"
+                "module": "Reward_Workflow_Message",
+                "type": "Reward_Workflow_Message"
               }
             }
           ],
@@ -1336,10 +1219,10 @@
               }
             },
             {
-              "id": "app-ErrInvalidDot",
+              "id": "app-ErrInvalidArgs-Func",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid use of '.'"
+                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {
@@ -1350,10 +1233,10 @@
               }
             },
             {
-              "id": "app-ErrInvalidArgs-Func",
+              "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {
