@@ -8,61 +8,14 @@ Reward_Workflow_Message As screen:
         Width: =418
         X: =915
         Y: =261
-        ZIndex: =5
-
-    "'Edit message' As group":
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =5
-
-        Rectangle1 As rectangle:
-            BorderColor: =RGBA(204, 204, 204, 1)
-            BorderThickness: =1
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =340
-            Width: =852
-            X: =24
-            Y: =394
-            ZIndex: =1
-
-        Label5 As label:
-            FontWeight: =FontWeight.Bold
-            Height: =29
-            Text: ="Edit Message"
-            Width: =800
-            X: =50
-            Y: =411
-            ZIndex: =2
-
-        Seperaor As rectangle:
-            Height: =2
-            Width: =810
-            X: =45
-            Y: =439
-            ZIndex: =3
-
-        TextInput2 As text:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderThickness: =1
-            Default: =""
-            FocusedBorderThickness: =1
-            Height: =281
-            HoverBorderColor: =RGBA(230, 230, 230, 1)
-            HoverFill: =RGBA(255, 255, 255, 1)
-            Mode: =TextMode.MultiLine
-            Width: =817
-            X: =38
-            Y: =439
-            ZIndex: =4
+        ZIndex: =4
 
     reward_outter_1 As groupContainer:
         Height: =168
         Width: =392
         X: =928
         Y: =314
-        ZIndex: =6
+        ZIndex: =5
 
         shadow_outter_1 As htmlViewer:
             Height: =168
@@ -190,13 +143,63 @@ Reward_Workflow_Message As screen:
             Y: =12
             ZIndex: =11
 
+    "'Edit message' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+        Rectangle1 As rectangle:
+            BorderColor: =RGBA(204, 204, 204, 1)
+            BorderThickness: =1
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =340
+            Width: =852
+            X: =24
+            Y: =394
+            ZIndex: =1
+
+        Label5 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =29
+            Text: ="Edit Message"
+            Width: =800
+            X: =50
+            Y: =411
+            ZIndex: =2
+
+        TextInput2 As text:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderThickness: =1
+            Default: =""
+            FocusedBorderThickness: =1
+            Height: =281
+            HoverBorderColor: =RGBA(230, 230, 230, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            Mode: =TextMode.MultiLine
+            Width: =817
+            X: =38
+            Y: =439
+            ZIndex: =3
+
+        Seperaor As rectangle:
+            BorderColor: =RGBA(204, 204, 204, 1)
+            BorderThickness: =0.5
+            Fill: =RGBA(204, 204, 204, 1)
+            Height: =1
+            Width: =810
+            X: =45
+            Y: =439
+            ZIndex: =11
+
     Label7 As label:
         Height: =34
         Text: ="Selected Reward Campaign"
         Width: =392
         X: =928
         Y: =280
-        ZIndex: =7
+        ZIndex: =6
 
     stepper_container_1 As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(204, 204, 204, 1)
@@ -205,7 +208,7 @@ Reward_Workflow_Message As screen:
         Width: =1314
         X: =24
         Y: =151
-        ZIndex: =8
+        ZIndex: =7
 
         Circle1_5 As circle:
             BorderColor: =RGBA(47, 105, 231, 0.01)
@@ -325,7 +328,7 @@ Reward_Workflow_Message As screen:
         Width: =1314
         X: =24
         Y: =102
-        ZIndex: =9
+        ZIndex: =8
 
         Label6_1 As label:
             DisplayMode: =DisplayMode.View
@@ -353,7 +356,7 @@ Reward_Workflow_Message As screen:
         Width: =1314
         X: =24
         Y: =26
-        ZIndex: =10
+        ZIndex: =9
 
         Label4_3 As label:
             DisplayMode: =DisplayMode.View
@@ -425,11 +428,13 @@ Reward_Workflow_Message As screen:
             ZIndex: =9
 
     Container4 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(204, 204, 204, 1)
+        BorderThickness: =1
         Height: =118
         Width: =852
         X: =24
         Y: =257
-        ZIndex: =11
+        ZIndex: =10
 
         Label10 As label:
             Text: ="From"
@@ -438,6 +443,7 @@ Reward_Workflow_Message As screen:
             ZIndex: =1
 
         Label10_1 As label:
+            Height: =28
             Text: ="Send Rewards To"
             X: =24
             Y: =49
@@ -445,13 +451,14 @@ Reward_Workflow_Message As screen:
 
         Label10_2 As label:
             Text: =User().FullName
-            X: =174
+            X: =194
             Y: =9
             ZIndex: =3
 
         Label10_3 As label:
+            Height: =28
             Text: ="Winford ASher"
-            X: =174
+            X: =194
             Y: =49
             ZIndex: =4
 
@@ -462,9 +469,9 @@ Reward_Workflow_Message As screen:
             ZIndex: =5
 
         Label10_5 As label:
-            Text: =SelectedCampaign.campaignCountry
-            Width: =270
-            X: =174
+            Text: ="Your Reward From Trevia. Thank you for the Meeting"
+            Width: =554
+            X: =194
             Y: =78
             ZIndex: =6
 
