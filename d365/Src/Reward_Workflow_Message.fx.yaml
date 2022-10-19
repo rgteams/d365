@@ -4,10 +4,10 @@ Reward_Workflow_Message As screen:
         BorderColor: =RGBA(230, 230, 230, 1)
         BorderThickness: =2
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =552
+        Height: =472
         Width: =418
         X: =915
-        Y: =182
+        Y: =261
         ZIndex: =5
 
     "'Edit message' As group":
@@ -20,26 +20,26 @@ Reward_Workflow_Message As screen:
         Rectangle1 As rectangle:
             BorderThickness: =1
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =452
+            Height: =340
             Width: =816
             X: =60
-            Y: =282
+            Y: =394
             ZIndex: =1
 
         Label5 As label:
             FontWeight: =FontWeight.Bold
-            Height: =38
+            Height: =29
             Text: ="Edit Message"
             Width: =766
             X: =85
-            Y: =304
+            Y: =411
             ZIndex: =2
 
         Seperaor As rectangle:
             Height: =2
             Width: =776
             X: =80
-            Y: =342
+            Y: =439
             ZIndex: =3
 
         TextInput2 As text:
@@ -47,20 +47,20 @@ Reward_Workflow_Message As screen:
             BorderThickness: =1
             Default: =""
             FocusedBorderThickness: =1
-            Height: =374
+            Height: =281
             HoverBorderColor: =RGBA(230, 230, 230, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
             Mode: =TextMode.MultiLine
             Width: =782
             X: =73
-            Y: =342
+            Y: =439
             ZIndex: =4
 
     reward_outter_1 As groupContainer:
         Height: =168
         Width: =392
         X: =928
-        Y: =239
+        Y: =314
         ZIndex: =6
 
         shadow_outter_1 As htmlViewer:
@@ -177,8 +177,8 @@ Reward_Workflow_Message As screen:
             PressedBorderColor: =RGBA(44, 114, 249, 1)
             Text: =""
             Width: =365
-            X: =13
-            Y: =6
+            X: =5
+            Y: =18
             ZIndex: =10
 
         HtmlText1_3 As htmlViewer:
@@ -194,6 +194,232 @@ Reward_Workflow_Message As screen:
         Text: ="Selected Reward Campaign"
         Width: =392
         X: =928
-        Y: =204
+        Y: =280
         ZIndex: =7
+
+    stepper_container_1 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(204, 204, 204, 1)
+        BorderThickness: =0.5
+        Height: =85
+        Width: =1314
+        X: =24
+        Y: =151
+        ZIndex: =8
+
+        Circle1_5 As circle:
+            BorderColor: =RGBA(47, 105, 231, 0.01)
+            Height: =30
+            Width: =30
+            X: =376
+            Y: =15
+            ZIndex: =7
+
+        Label7_5 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =30
+            Size: =9
+            Text: ="1"
+            Width: =27
+            X: =382
+            Y: =15
+            ZIndex: =8
+
+        Label8_5 As label:
+            BorderColor: =RGBA(0, 134, 208, 1)
+            Color: =RGBA(0, 134, 208, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =35
+            Size: =10
+            Text: ="Select Campaign"
+            Width: =119
+            X: =335
+            Y: =45
+            ZIndex: =9
+
+        Circle1_6 As circle:
+            BorderColor: =RGBA(153, 153, 153, 1)
+            BorderThickness: =2
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Width: =30
+            X: =650
+            Y: =15
+            ZIndex: =10
+
+        Label7_6 As label:
+            Color: =RGBA(153, 153, 153, 1)
+            DisplayMode: =DisplayMode.View
+            FontWeight: =FontWeight.Semibold
+            Height: =30
+            Size: =9
+            Text: ="2"
+            Width: =27
+            X: =656
+            Y: =15
+            ZIndex: =11
+
+        Label8_6 As label:
+            BorderColor: =RGBA(0, 134, 208, 1)
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =35
+            Size: =10
+            Text: ="Message"
+            Width: =71
+            X: =633
+            Y: =45
+            ZIndex: =12
+
+        Circle1_7 As circle:
+            BorderColor: =RGBA(153, 153, 153, 1)
+            BorderThickness: =2
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Width: =30
+            X: =922
+            Y: =15
+            ZIndex: =13
+
+        Label7_7 As label:
+            Color: =RGBA(153, 153, 153, 1)
+            DisplayMode: =DisplayMode.View
+            FontWeight: =FontWeight.Semibold
+            Height: =30
+            Size: =9
+            Text: ="3"
+            Width: =27
+            X: =928
+            Y: =15
+            ZIndex: =14
+
+        Label8_7 As label:
+            BorderColor: =RGBA(0, 134, 208, 1)
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =35
+            Size: =10
+            Text: ="Preview & Send"
+            Width: =112
+            X: =885
+            Y: =45
+            ZIndex: =15
+
+        HtmlText1_4 As htmlViewer:
+            HtmlText: |-
+                ="<div style=' border-bottom: 1px solid gray;'>&nbsp;</div>"
+            X: =433
+            Y: =5
+            ZIndex: =16
+
+        HtmlText1_5 As htmlViewer:
+            HtmlText: |-
+                ="<div style=' border-bottom: 1px solid gray;'>&nbsp;</div>"
+            X: =701
+            Y: =5
+            ZIndex: =17
+
+    rybbon_text_container_1 As groupContainer.manualLayoutContainer:
+        Height: =41
+        Width: =1314
+        X: =24
+        Y: =102
+        ZIndex: =9
+
+        Label6_1 As label:
+            DisplayMode: =DisplayMode.View
+            FontWeight: =Bold
+            Height: =41
+            Size: =11
+            Text: ="Rybbon Reward"
+            Width: =187
+            ZIndex: =1
+
+        Icon1_2 As icon.HorizontalLine:
+            BorderColor: =RGBA(73, 112, 191, 1)
+            Color: =RGBA(50, 86, 160, 1)
+            DisplayMode: =DisplayMode.View
+            FocusedBorderThickness: =1
+            Height: =25
+            Icon: =Icon.HorizontalLine
+            Width: =100
+            X: =40
+            Y: =16
+            ZIndex: =3
+
+    top_container_1 As groupContainer.manualLayoutContainer:
+        Height: =68
+        Width: =1314
+        X: =24
+        Y: =26
+        ZIndex: =10
+
+        Label4_3 As label:
+            DisplayMode: =DisplayMode.View
+            Size: =10
+            Text: ="with Rybbon by Blackhawk network"
+            Width: =309
+            X: =
+            Y: =21
+            ZIndex: =1
+
+        Label4_2 As label:
+            DisplayMode: =DisplayMode.View
+            FontWeight: =Bold
+            Size: =14
+            Text: ="Reward"
+            ZIndex: =2
+
+        Label18_1 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =21
+            Size: =10
+            Text: ="New"
+            Width: =61
+            X: =1094
+            Y: =9
+            ZIndex: =3
+
+        Label19_2 As label:
+            Size: =9
+            Text: ="Status"
+            Width: =50
+            X: =1094
+            Y: =21
+            ZIndex: =4
+
+        Label20_1 As label:
+            BorderColor: =RGBA(204, 204, 204, 1)
+            BorderThickness: =1
+            Text: =""
+            Width: =0
+            X: =1167
+            Y: =9
+            ZIndex: =6
+
+        Label21_1 As label:
+            Color: =RGBA(0, 134, 208, 1)
+            FontWeight: =FontWeight.Bold
+            Size: =10
+            Text: ="Jahneer"
+            Width: =120
+            X: =1185
+            ZIndex: =7
+
+        Label19_3 As label:
+            Size: =9
+            Text: ="Owner"
+            Width: =50
+            X: =1185
+            Y: =21
+            ZIndex: =8
+
+        Icon4_1 As icon.ChevronDown:
+            Color: =RGBA(179, 179, 179, 1)
+            Height: =22
+            Icon: =Icon.ChevronDown
+            Width: =12
+            X: =1255
+            Y: =21
+            ZIndex: =9
 
