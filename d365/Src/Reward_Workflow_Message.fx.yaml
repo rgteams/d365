@@ -176,8 +176,8 @@ Reward_Workflow_Message As screen:
             OnSelect: =
             PressedBorderColor: =RGBA(44, 114, 249, 1)
             Text: =""
-            Width: =344
-            X: =19
+            Width: =365
+            X: =13
             Y: =6
             ZIndex: =10
 
@@ -188,4 +188,12 @@ Reward_Workflow_Message As screen:
             X: =25
             Y: =12
             ZIndex: =11
+
+    Label7 As label:
+        Height: =34
+        Text: ="Selected Reward Campaign"
+        Width: =392
+        X: =928
+        Y: =204
+        ZIndex: =7
 
