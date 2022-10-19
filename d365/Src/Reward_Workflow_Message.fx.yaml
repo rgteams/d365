@@ -73,14 +73,14 @@ Reward_Workflow_Message As screen:
 
         campaign_name_1 As label:
             Color: =RGBA(116, 116, 116, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =20
+            FontWeight: =FontWeight.Bold
+            Height: =22
             OnSelect: =Select(reward_logo_1)
-            Size: =8
-            Text: =Proper(SelectedCampaign.campaignStatus)
-            Width: =201
+            Size: =10
+            Text: =Proper(SelectedCampaign.campaignName)
+            Width: =301
             X: =25
-            Y: =14
+            Y: =12
             ZIndex: =2
 
         reward_logo_1 As image:
