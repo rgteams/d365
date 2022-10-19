@@ -18,6 +18,7 @@ Reward_Workflow_Message As screen:
         ZIndex: =5
 
         Rectangle1 As rectangle:
+            BorderColor: =RGBA(204, 204, 204, 1)
             BorderThickness: =1
             Fill: =RGBA(0, 0, 0, 0)
             Height: =340
@@ -422,4 +423,17 @@ Reward_Workflow_Message As screen:
             X: =1255
             Y: =21
             ZIndex: =9
+
+    Container3 As groupContainer.verticalAutoLayoutContainer:
+        Height: =116
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =816
+        X: =60
+        Y: =261
+        ZIndex: =11
+
+        Label9 As label:
+            Text: ="From"
+            ZIndex: =1
 
